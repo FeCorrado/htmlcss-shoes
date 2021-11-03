@@ -29,13 +29,20 @@ a{
     color: grey;
     background-color: honeydew;
     border-radius: 50%;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .nav{
     display: inline-block;
-    left: 0;
-    top: 0;
     z-index: 1;
+}
+
+.navs{
+    position: fixed;
+    z-index: 1;
+    padding-left: 90%;
 }
 
 /* colori */
